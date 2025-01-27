@@ -12,7 +12,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # Initialize Firebase
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    "databaseURL": "https://face-attendance-10774-default-rtdb.firebaseio.com/"
+    "databaseURL": "enter database url"
 })
 
 # Load pre-existing encodings

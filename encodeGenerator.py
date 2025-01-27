@@ -3,7 +3,6 @@ import face_recognition
 import pickle
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-print(f"Current Working Directory: {os.getcwd()}")
 
 folderPath = "Images"
 PathList = os.listdir(folderPath)

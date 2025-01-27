@@ -16,7 +16,7 @@ cap = cv2.VideoCapture(0)
 #database Url
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    "databaseURL": "https://face-attendance-10774-default-rtdb.firebaseio.com/"
+    "databaseURL": "enter database url here"
 })
 
 
